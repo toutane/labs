@@ -133,6 +133,7 @@ endif
 
 	# iOS files
 	rm -rf ios/Pods
+	rm -rf $(IOS_CORE)
 
 	# Android files
 	rm -rf android/.gradle
